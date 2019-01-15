@@ -1,0 +1,54 @@
+.body {
+    margin: 0;
+}
+.bg-image {
+    background-image: url("mountains.jpg");
+    background-size: cover;
+    height: 92vh;
+    z-index: -1;
+}
+.bg-trans {
+    background-color: rgba(173,216,230 ,0.8 );
+    height: 92vh;
+    z-index: 1;
+}
+.m-5-top {
+    margin-top: 5rem;
+    color: white;
+}
+.m-5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.m-5 > span {
+    font-size: 80px;
+}
+.m-5 > button {
+    background-color: transparent;
+    padding: 15px;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-blue {
+    background-color: blue;
+    color: white;
+}
+.border-blue {
+    border: 1px solid blue;
+}
+.bg-lightblue {
+    background-color: lightblue;
+}
+.icon  i {
+    padding: 15px;
+}
+.text > h2 {
+    color: blue;
+}
+.panel-group > .panel {
+    border: 1px solid black;
+}
+hr {
+    border: 0.5px solid gray;
+}
